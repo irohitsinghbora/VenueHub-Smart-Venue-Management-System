@@ -203,6 +203,7 @@ public class VenueHubBackend {
             }
         }
         return result;
+        
     }
 
     private static Map<String, Object> getVenue(Connection con, int id) throws SQLException {
