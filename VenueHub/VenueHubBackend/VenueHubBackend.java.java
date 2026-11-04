@@ -293,6 +293,7 @@ public class VenueHubBackend {
         return result;
     }
 
+    
     private static Map<String, Object> getBooking(Connection con, int id) throws SQLException {
         String sql = "SELECT b.BOOKING_ID, b.USER_ID, b.VENUE_ID, b.BOOKING_DATE, b.STATUS, "
                 + "b.EVENT_NAME, b.TIME_SLOT, b.GUESTS, v.VENUE_NAME, v.LOCATION, v.PRICE "
